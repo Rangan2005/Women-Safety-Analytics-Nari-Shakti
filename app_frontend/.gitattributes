@@ -1,0 +1,19 @@
+# Set default behavior to automatically normalize line endings 
+# Set default behavior to automatically normalize line endings
+* text=auto
+
+# Explicitly declare text files you want to always normalize and convert to LF
+*.c text
+*.cc text
+*.cpp text
+*.h text
+*.java text
+*.swift text
+*.dart text
+*.json text
+*.cmake text
+
+# Binary files should be left untouched
+*.png binary
+*.jpg binary
+*.pdf binary
